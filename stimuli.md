@@ -66,7 +66,25 @@ This stimulus function creates a circle (a PsychoPy stimulus object, `stim_obj`)
 
 ### Current Stimulus Function:
 ```python
-def field_flash(exp_Info, bg_ls, fg_ls, stim_texture, noise_arr, stimdict, epoch, window, global_clock, duration_clock, outFile, out, stim_obj, dlpOK, viewpos, data, taskHandle=None, lastDataFrame=0, lastDataFrameStartTime=0)
+def field_flash(exp_Info,
+                bg_ls,
+                fg_ls,
+                stim_texture,
+                noise_arr,
+                stimdict,
+                epoch,
+                window,
+                global_clock,
+                duration_clock,
+                outFile,
+                out,
+                stim_obj,
+                dlpOK,
+                viewpos,
+                data,
+                taskHandle=None,
+                lastDataFrame=0,
+                lastDataFrameStartTime=0)
 ```
 -	**exp_Info**: a dictionary containing information about the experiment which must be provided when running pyVStim.
 -	**bg_ls or fg_ls**: list of background and foreground luminance for all epochs defined in the stimulus file
